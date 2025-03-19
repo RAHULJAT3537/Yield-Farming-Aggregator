@@ -1,0 +1,14 @@
+[package]
+name = "Yeild-farming-agg"
+version = "1.0.0"
+authors = []
+
+[addresses]
+YieldFarming = "0x94b2a6de5b8351da5f6feedf83e51f62d6f3668ee783fe049aad77cb935a970e"
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-framework.git"
+rev = "mainnet"
+subdir = "aptos-framework"
+
+[dev-dependencies]
